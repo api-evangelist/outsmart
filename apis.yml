@@ -1,8 +1,12 @@
 aid: outsmart
 name: Outsmart
-description: 'Outsmart is a company surfaced as a portfolio company of forerunner-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Outsmart (Outsmart Education) is an early-stage EdTech startup building a consumer,
+  mobile-first learning experience for higher education in the age of AI — "the university of the future."
+  Founded by former Duolingo executives and backed by roughly $38M from investors including Forerunner,
+  Khosla, Lightspeed, DST, Abstract, Karman, Latitud, and Reach, with teams in LA, SF, and Salt Lake City.
+  The product is a pre-launch waitlist app (iOS and Android, built with React Native, Rive, and Unity)
+  emphasizing content generation at scale, gamification, and benchmarking. As of this profile the company
+  publishes a marketing/waitlist site only; it exposes no public API, developer portal, or documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/outsmart/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +14,34 @@ x-backed-by:
 - forerunner-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://joinoutsmart.com/images/outsmart_social.png
 tags:
 - Company
 - Ai
+- EdTech
+- Higher Education
+- Mobile
+- Consumer
+- Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/outsmart-domain-security.yml
 - type: Website
   url: https://joinoutsmart.com
